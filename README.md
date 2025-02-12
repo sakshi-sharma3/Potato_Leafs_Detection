@@ -29,10 +29,15 @@ The model is trained on a Potato Leaf Dataset obtained from PlantVillage. It con
 
 ## 📁 Repository Structure
 dataset/ - Contains images used for training and testing
+
 models/ - Trained AI models
+
 app.py - Streamlit web application
+
 notebooks/ - Jupyter notebooks with model training steps
+
 requirements.txt - List of dependencies
+
 README.md - Documentation
 
 
