@@ -16,13 +16,12 @@ Follow these steps to set up and run the project locally:
 
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/yourusername/potato-disease-detection.git
+   git clone https://github.com/sakshi-sharma3/potato-disease-detection.git
    cd potato-disease-detection
    ```
 2. **Create a virtual environment** (optional but recommended)
    ```sh
    python -m venv venv
-   source venv/bin/activate  # On macOS/Linux
    venv\Scripts\activate    # On Windows
    ```
 3. **Install dependencies**
@@ -42,13 +41,14 @@ Follow these steps to set up and run the project locally:
 
 ## Dataset
 
-The dataset consists of images of potato leaves with different diseases. It is sourced from Kaggle and preprocessed before training the model.
+The model is trained on a Potato Leaf Dataset obtained from PlantVillage. It contains thousands of labeled images of healthy and diseased potato leaves.
 
-## Model
+## Model Structure
 
 - Convolutional Neural Network (CNN) architecture.
 - Pretrained models like VGG16 or ResNet may be used.
 - Trained on labeled images of healthy and diseased potato leaves.
+- 📈 Results & Accuracy
 
 ## Contributing
 
@@ -59,13 +59,16 @@ Contributions are welcome! To contribute:
 3. Make your changes and commit them.
 4. Submit a pull request.
 
+## Future Enhancements
+
+ Improve accuracy with transfer learning (e.g., ResNet, MobileNet)
+
+🔹 Deploy as a mobile app for farmers
+
+🔹 Add multi-class classification for more plant diseases
+
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is open-source under the MIT License.
 
-## Contact
-
-- **Developer:** Sakshi Sharma
-- **GitHub:** [yourusername](https://github.com/yourusername)
-- **Email:** [your-email@example.com](mailto\:your-email@example.com)
 
