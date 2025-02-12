@@ -10,29 +10,6 @@ Potato Leaf Diseases Detection is a machine learning project that identifies dif
 - User-friendly web interface using Streamlit.
 - Uses a deep learning model for accurate predictions.
 
-## Installation
-
-Follow these steps to set up and run the project locally:
-
-1. **Clone the repository**
-   ```sh
-   git clone https://github.com/sakshi-sharma3/potato-disease-detection.git
-   cd potato-disease-detection
-   ```
-2. **Create a virtual environment** (optional but recommended)
-   ```sh
-   python -m venv venv
-   venv\Scripts\activate    # On Windows
-   ```
-3. **Install dependencies**
-   ```sh
-   pip install -r requirements.txt
-   ```
-4. **Run the Streamlit application**
-   ```sh
-   streamlit run web.py
-   ```
-
 ## Usage
 
 1. Open the web application in your browser.
@@ -50,14 +27,15 @@ The model is trained on a Potato Leaf Dataset obtained from PlantVillage. It con
 - Trained on labeled images of healthy and diseased potato leaves.
 - 📈 Results & Accuracy
 
-## Contributing
+## 📁 Repository Structure
+dataset/ - Contains images used for training and testing
+models/ - Trained AI models
+app.py - Streamlit web application
+notebooks/ - Jupyter notebooks with model training steps
+requirements.txt - List of dependencies
+README.md - Documentation
 
-Contributions are welcome! To contribute:
 
-1. Fork the repository.
-2. Create a new branch.
-3. Make your changes and commit them.
-4. Submit a pull request.
 
 ## Future Enhancements
 
@@ -71,4 +49,6 @@ Contributions are welcome! To contribute:
 
 This project is open-source under the MIT License.
 
+## 📜 Acknowledgments
+Special thanks to AICTE, Microsoft, SAP, and the TechSaksham team for this incredible learning opportunity.
 
