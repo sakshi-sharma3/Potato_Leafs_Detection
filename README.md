@@ -34,8 +34,6 @@ models/ - Trained AI models
 
 app.py - Streamlit web application
 
-notebooks/ - Jupyter notebooks with model training steps
-
 requirements.txt - List of dependencies
 
 README.md - Documentation
